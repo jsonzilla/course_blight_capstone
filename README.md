@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Blight Fight Capstone Project is a project that aims to develop a machine learning model to predict blight in buildings in Detroit. Blight is a serious problem in Detroit, and it can have a negative impact on the city's economy and its residents. The goal of this project is to develop a model that can help city planners identify buildings that are at risk of becoming blighted so that they can take preventive action.
+The Blight Fight Capstone Project is a project that aims to develop a machine learning model to predict the relation between blight in buildings and crimes in Detroit. Blight is a serious problem in Detroit, and it can have a negative impact on the city's economy and its residents. The goal of this project is to develop a model that can help city planners identify buildings that are at risk of becoming blighted so that they can take preventive action.
 
 ## Data Analysis
 The data that was used in this project was obtained from the City of Detroit's Open Data Portal. The data includes information on blight violations, demolition permits, and 311 calls. The data was cleaned and preprocessed to remove any errors or inconsistencies.
@@ -74,7 +74,7 @@ def extract_geo_location(df: pd.DataFrame, label: str) -> pd.DataFrame:
     return df
 ```
 
- #### Create a geolocation grid
+#### Create a geolocation grid
 Create a data structure to store the grid of geolocations. This grid is a pseudo grid, as it is not a regular grid. The grid is defined by the center of the grid, the number of rows and columns and the size of the grid. The size of the grid is the size of the grid in meters. The grid is a square grid. The grid is defined by a tile size in meters.
 
 
